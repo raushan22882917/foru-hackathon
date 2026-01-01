@@ -1,30 +1,97 @@
-# SaaS product frontend
+# ThreadSense AI - Intelligent Community Brain
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+*AI-powered forum enhancement system for the Foru Hackathon*
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/instasitebuilderts-projects/v0-saa-s-product-frontend)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/uPM7poW2Qhh)
+[![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![Powered by Gemini AI](https://img.shields.io/badge/Powered%20by-Gemini%20AI-blue?style=for-the-badge&logo=google)](https://ai.google.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-## Overview
+## 🧠 Overview
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+ThreadSense AI transforms traditional online forums into intelligent community platforms. Built for the Foru Hackathon, this system provides real-time AI insights, automated moderation, smart reply assistance, and comprehensive community health analytics.
 
-## Deployment
+## ✨ Features
 
-Your project is live at:
+- **🤖 Smart Reply Assistant** - AI-powered contextual response suggestions
+- **📝 TL;DR Bot** - Automatic summarization for long discussions
+- **🛡️ AI Moderator** - Real-time content analysis and safety screening
+- **💭 Sentiment Meter** - Community mood and emotional tone analysis
+- **📊 Community Health Dashboard** - Comprehensive analytics and insights
+- **🔗 Smart Suggestions** - Intelligent content recommendations
 
-**[https://vercel.com/instasitebuilderts-projects/v0-saa-s-product-frontend](https://vercel.com/instasitebuilderts-projects/v0-saa-s-product-frontend)**
+## 🚀 Quick Start
 
-## Build your app
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/raushan22882917/foru-hackathon.git
+   cd foru-hackathon
+   ```
 
-Continue building your app on:
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
 
-**[https://v0.app/chat/uPM7poW2Qhh](https://v0.app/chat/uPM7poW2Qhh)**
+3. **Set up environment variables**
+   ```bash
+   cp .env.example .env.local
+   # Add your API keys (see ENV_VARIABLES.md for details)
+   ```
 
-## How It Works
+4. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   ```
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+5. **Open [http://localhost:3000](http://localhost:3000)** in your browser
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 16, React 19, TypeScript
+- **AI Engine**: Google Gemini AI
+- **Styling**: Tailwind CSS with custom gradients
+- **UI Components**: shadcn/ui with Radix UI
+- **Backend Integration**: Foru.ms API
+- **State Management**: React hooks with intelligent caching
+
+## 📖 Documentation
+
+- **[Project Story](ThreadSense_AI_Story.md)** - Complete development journey and technical details
+- **[Technical Report](ThreadSense_AI_Project_Report.txt)** - LaTeX-formatted comprehensive report
+- **[Environment Setup](ENV_VARIABLES.md)** - API keys and configuration guide
+
+## 🎯 Key Components
+
+### ThreadSense AI Engine (`lib/threadsense-ai.ts`)
+Central intelligence system that coordinates all AI features with caching and error handling.
+
+### Smart Components
+- `components/smart-reply-assistant.tsx` - Contextual response generation
+- `components/tldr-bot.tsx` - Automatic content summarization
+- `components/ai-moderator.tsx` - Content safety analysis
+- `components/sentiment-meter.tsx` - Emotional tone detection
+- `components/threadsense-dashboard.tsx` - Community health analytics
+
+## 🔧 Configuration
+
+The system requires several API keys and configuration options. See `ENV_VARIABLES.md` for detailed setup instructions.
+
+## 🤝 Contributing
+
+This project was built for the Foru Hackathon. Feel free to explore the code, suggest improvements, or adapt it for your own forum platform.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🏆 Hackathon Submission
+
+ThreadSense AI represents a comprehensive solution to modern forum challenges, demonstrating how AI can enhance rather than replace human community interaction. The system successfully integrates multiple AI capabilities into a cohesive, user-friendly platform that makes online communities more accessible, safer, and more engaging.
+
+---
+
+*Built with ❤️ for the Foru Hackathon by [Raushan Kumar](https://github.com/raushan22882917)*
