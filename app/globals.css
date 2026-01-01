@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+:root {
+  /* Foru.ms Light Theme Colors */
+  --background: 246 246 248; /* #f6f6f8 */
+  --foreground: 15 23 42; /* #0f172a */
+  --card: 255 255 255;
+  --card-foreground: 15 23 42;
+  --popover: 255 255 255;
+  --popover-foreground: 15 23 42;
+  --primary: 19 55 236; /* #1337ec */
+  --primary-foreground: 255 255 255;
+  --secondary: 241 245 249;
+  --secondary-foreground: 15 23 42;
+  --muted: 248 250 252;
+  --muted-foreground: 100 116 139;
+  --accent: 241 245 249;
+  --accent-foreground: 15 23 42;
+  --destructive: 239 68 68;
+  --destructive-foreground: 255 255 255;
+  --success: 11 218 101; /* #0bda65 */
+  --success-foreground: 255 255 255;
+  --warning: 251 146 60;
+  --warning-foreground: 255 255 255;
+  --border: 226 232 240;
+  --input: 226 232 240;
+  --ring: 19 55 236;
+  --radius: 0.25rem;
+  --chart-1: 220 70% 50%;
+  --chart-2: 160 60% 45%;
+  --chart-3: 30 80% 55%;
+  --chart-4: 280 65% 60%;
+  --chart-5: 340 75% 55%;
+}
+
+.dark {
+  /* Foru.ms Dark Theme Colors - matching the provided design */
+  --background: 16 19 34; /* #101322 */
+  --foreground: 255 255 255;
+  --card: 21 26 45; /* #151a2d */
+  --card-foreground: 255 255 255;
+  --popover: 30 36 57; /* #1e2439 */
+  --popover-foreground: 255 255 255;
+  --primary: 19 55 236; /* #1337ec */
+  --primary-foreground: 255 255 255;
+  --secondary: 35 43 72; /* #232948 */
+  --secondary-foreground: 255 255 255;
+  --muted: 50 59 103; /* #323b67 */
+  --muted-foreground: 146 155 201; /* #929bc9 */
+  --accent: 35 43 72; /* #232948 */
+  --accent-foreground: 255 255 255;
+  --destructive: 239 68 68;
+  --destructive-foreground: 255 255 255;
+  --success: 11 218 101; /* #0bda65 */
+  --success-foreground: 255 255 255;
+  --warning: 251 146 60;
+  --warning-foreground: 255 255 255;
+  --border: 50 59 103; /* #323b67 */
+  --input: 35 43 72; /* #232948 */
+  --ring: 19 55 236;
+  --chart-1: 220 70% 50%;
+  --chart-2: 160 60% 45%;
+  --chart-3: 30 80% 55%;
+  --chart-4: 280 65% 60%;
+  --chart-5: 340 75% 55%;
+}
+
+/* Custom scrollbar matching the template design */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Material Icons font styling */
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
